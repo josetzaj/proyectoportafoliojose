@@ -1,0 +1,76 @@
+/* Normalización de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BBE8F2; /* Color de fondo claro */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para el banner */
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centrar los elementos de la lista */
+}
+
+nav ul li {
+    margin: 0 20px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1.2em; /* Tamaño de fuente */
+    transition: color 0.3s; /* Transición suave */
+}
+
+nav ul li a:hover {
+    color: #727374; /* Azul claro al pasar el mouse */
+}
+
+/* Estilos del contenedor */
+.contenedor {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: #FFFFFF; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    font-size: 2.5em; /* Tamaño grande del título */
+    color: #034C8C; /* Color azul oscuro */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Estilos para la fecha y autor */
+.fecha, .autor {
+    text-align: center; /* Centrar el texto */
+    font-size: 1.1em; /* Tamaño del texto */
+    color: #8C472E; /* Color marrón rojizo */
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilos para la descripción */
+.descripcion {
+    font-size: 1em; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+}
+
+
